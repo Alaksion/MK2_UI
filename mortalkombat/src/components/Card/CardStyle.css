@@ -1,0 +1,25 @@
+.ListagemCardContainer{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 180px;
+    cursor: pointer;
+    border: 0;
+    background-size: 180px 180px;
+    transition: all 0.2s;
+}
+
+.ListagemCardContainer:focus{
+    outline: 0;
+}
+
+.ListagemCardContainer:hover{
+    border: 2px solid #E43337;
+}
+
+.FiltroSelecionado{
+    filter: grayscale(2);
+}
+
+
+

@@ -1,0 +1,26 @@
+.ListagemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+}
+
+.ListagemContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.PersonagemSelecionado{
+    width: 33%;
+}
+
+.ListagemItemsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+}
